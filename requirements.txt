@@ -1,0 +1,20 @@
+# Install a CUDA-compatible PyTorch/torchvision pair before these requirements.
+torch>=2.0.0
+torchvision
+cupy-cuda12x; platform_system == "Linux"
+transformers==4.46.2
+controlnet-aux==0.0.7
+imageio[ffmpeg]
+safetensors
+einops
+sentencepiece
+protobuf
+modelscope
+ftfy
+numpy>=1.24,<2
+pillow
+opencv-python<4.12
+tqdm
+packaging
+huggingface-hub<1
+pandas>=2,<3

@@ -1,0 +1,18 @@
+Unified Long Video Inpainting and Outpainting
+Research modifications by Shuangquan Lyu, Jian Mao, and Yue Ma.
+https://arxiv.org/abs/2511.03272
+
+This project includes and modifies code from DiffSynth-Studio:
+https://github.com/modelscope/DiffSynth-Studio
+Upstream baseline: commit 4f01b37 (the base of the local research branch).
+DiffSynth-Studio is distributed under the Apache License, Version 2.0.
+The original LICENSE and source notices have been retained.
+
+Research changes include masked-video LoRA training, video-to-video editing,
+overlapping temporal co-denoising, midpoint sampling, and evaluation utilities.
+The release cleanup adds command-line interfaces, input validation, temporal
+correctness fixes, documentation, and CPU regression checks.
+
+Third-party code, model weights, tokenizer resources, and datasets retain their
+respective notices and terms. This source license does not relicense separately
+downloaded assets.

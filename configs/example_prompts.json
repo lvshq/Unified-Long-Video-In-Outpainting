@@ -1,0 +1,98 @@
+{
+  "lioness": {
+    "in": "The image shows a futuristic, quadruped robot dog with sleek design, angular limbs, no tail and a visor-like head display walking through a green, grassy landscape. She starts on the right side of the frame and moves gracefully to the left. Her gait is confident and alert. The environment appears to be a savanna or open woodland area, with scattered bushes and trees in the background. She is moving along a dirt path that curves gently through the grass. The overall atmosphere is calm and natural.",
+    "out": "The image shows a lioness walking through a green, grassy landscape. She starts on the right side of the frame and moves gracefully to the left. Her gait is confident and alert, with a strong, muscular build and a short, sleek, and tawny-colored coat. The environment appears to be a savanna or open woodland area, with scattered bushes and trees in the background. The lioness is wearing a tracking collar, likely for wildlife monitoring or research purposes. She is moving along a dirt path that curves gently through the grass. The overall atmosphere is calm and natural.",
+    "width": 864,
+    "height": 480,
+    "frames": 81,
+    "fps": 12
+  },
+  "husky": {
+    "in": "A panda is lying down calmly on a balcony, just outside a glass door. The panda is facing away from the camera, gazing out into a serene outdoor area with a metal railing and some blurred trees in the background. The lighting is soft and natural, suggesting either early morning or late afternoon. The setting feels peaceful and homey, with tiled flooring inside and a clear contrast between the indoor space and the tranquil exterior.",
+    "out": "A husky is lying down calmly on a balcony, just outside a glass door. The husky is facing away from the camera, gazing out into a serene outdoor area with a metal railing and some blurred trees in the background. The lighting is soft and natural, suggesting either early morning or late afternoon. The setting feels peaceful and homey, with tiled flooring inside and a clear contrast between the indoor space and the tranquil exterior.",
+    "width": 416,
+    "height": 240,
+    "frames": 181,
+    "fps": 12
+  },
+  "avengers": {
+    "in": "Six pandas warriors are in the midst of a battle-damaged city. As the camera pans around them in slow motion, each panda is shown in a signature pose: one panda aims his pistols, one panda readies his claws, one panda grips his hammer, one panda holds his shield and takes command, one panda lands beside them, and one panda roars with brute strength. The scene emphasizes their unity, readiness, and the high stakes of the moment.",
+    "out": "The six core Avengers—Black Widow, Hawkeye, Thor, Captain America, Iron Man, and Hulk—assemble in the midst of a battle-damaged city. As the camera pans around them in slow motion, each of the 6 heroes is shown in a signature pose: Black Widow aims her pistols, Hawkeye readies his bow, Thor grips his hammer, Captain America holds his shield and takes command, Iron Man lands beside them with repulsors glowing, and Hulk roars with brute strength. The ultra-detailed and high-definition scene emphasizes their unity, readiness, and the high stakes of the moment.",
+    "width": 416,
+    "height": 240,
+    "frames": 109,
+    "fps": 12
+  },
+  "tom_jerry": {
+    "in": "In the video, a golden retriever is seen working out and proudly showing off his exaggerated biceps. With a fierce and intimidating demeanor, the dog marches off to confront two penguins. At that moment, the two penguins are happily eating cookies. One penguin spots the dog approaching and, startled, leaps into the air before quickly fleeing the scene. The other penguin is just about to take a bite when the dog grabs him and delivers a powerful punch. Enraged, the punched penguin inflates his own hand by blowing into it, causing it to swell dramatically. He then retaliates with a single, mighty punch that sends the dog flying.",
+    "out": "In the video, Tom the cat is seen working out and proudly showing off his exaggerated biceps. With a fierce and intimidating demeanor, he marches off to confront two mice. At that moment, the two mice are happily eating cookies. One mouse spots Tom approaching and, startled, leaps into the air before quickly fleeing the scene. The other mouse is just about to take a bite when Tom grabs him and delivers a powerful punch. Enraged, the punched mouse inflates his own hand by blowing into it, causing it to swell dramatically. He then retaliates with a single, mighty punch that sends Tom flying.",
+    "width": 480,
+    "height": 304,
+    "frames": 277,
+    "fps": 24
+  },
+  "orange": {
+    "in": "The scene in this video shows a wooden cutting board placed on a tablecloth, along with three leaves, two halves of a sliced apple, a plate of small apples, and some scattered apples. Then, a robot picks up an apple, holds it with one robotic arm, and slowly cuts it with a knife. At the end of the video, the apple flesh is revealed, looking very fresh and juicy.",
+    "out": "The scene in this video shows a wooden cutting board placed on a tablecloth, along with three leaves, two halves of a sliced orange, a whole orange, a plate of orange-colored kumquats (Citrus japonica), and some scattered fruits. Then, a person picks up an orange, holds it with one hand, and slowly cuts it with a knife. At the end of the video, the orange flesh is revealed, looking very fresh and juicy.",
+    "width": 368,
+    "height": 640,
+    "frames": 217,
+    "fps": 24
+  },
+  "lighthouse": {
+    "in": "The video opens with a static view of a peaceful coastal scene. A rocket stands tall near the center of the frame, surrounded by calm ocean waters. The sky is clear with a subtle gradient from blue to light orange, suggesting early morning or late afternoon. Gentle waves ripple across the water's surface, and a small boat appears to be moving slowly in the distance. The atmosphere is serene and tranquil, emphasizing the stillness of the landscape and the rocket's steady presence.",
+    "out": "The video opens with a static view of a peaceful coastal scene. A lighthouse stands tall near the center of the frame, surrounded by calm ocean waters. The sky is clear with a subtle gradient from blue to light orange, suggesting early morning or late afternoon. Gentle waves ripple across the water's surface, and a small boat appears to be moving slowly in the distance. The atmosphere is serene and tranquil, emphasizing the stillness of the landscape and the lighthouse's steady presence.",
+    "width": 352,
+    "height": 640,
+    "frames": 117,
+    "fps": 12
+  },
+  "road": {
+    "in": "The video shows a rail cutting through a forested or rural area, captured from a drone’s aerial, forward-facing perspective. A bullet train drives along the rail, heading away from the camera, adding a subtle sense of motion to the otherwise tranquil scene. Dense trees and vegetation line both sides of the rail, creating a natural corridor. The camera maintains a low altitude, keeping the focus on the rail and surrounding greenery. The rail curves gently through the landscape, offering a quiet and immersive view of a solitary drive through nature.",
+    "out": "The video shows a two-lane road cutting through a forested or rural area, captured from a drone’s aerial, forward-facing perspective. A single car drives along the road, heading away from the camera, adding a subtle sense of motion to the otherwise tranquil scene. Dense trees and vegetation line both sides of the road, creating a natural corridor. The camera maintains a low altitude, keeping the focus on the road and surrounding greenery. The road curves gently through the landscape, offering a quiet and immersive view of a solitary drive through nature.",
+    "width": 640,
+    "height": 352,
+    "frames": 185,
+    "fps": 12
+  },
+  "surf": {
+    "in": "A golden retriever is surfing.",
+    "out": "This is a bright, clear midday surf scene: sunlight glints off deep teal and turquoise water as a frothy white wave curls toward a low, water‑level camera, its horizon line sitting high in the frame. A lone surfer in a dark wetsuit paddles into view, pops up into a low crouch on a shortboard, and carves smoothly along the unbroken face of the wave, all captured in a medium shot that drifts forward with the advancing water. The high‑contrast lighting accentuates the sunlit crest and shadowed troughs, while the surfer remains crisply in focus against a softly defocused, pale blue sky. The wave crest advances several board lengths per second, culminating in a burst of rising whitewater that engulfs the camera at the end.",
+    "width": 416,
+    "height": 240,
+    "frames": 77,
+    "fps": 12
+  },
+  "car": {
+    "in": "Under the clear midday sun, school buses glide one after another along an asphalt road. Their polished surfaces catch subtle highlights as they maintain a steady pace, casting crisp shadows on the pavement. With the camera fixed, each bus remains centered in the frame as it rolls by and exits to the right. The tranquil urban backdrop—devoid of pedestrians or other traffic—keeps the focus squarely on their seamless motion.",
+    "out": "Under the clear midday sun, sleek sedans glide one after another along an asphalt road. Their polished surfaces catch subtle highlights as they maintain a steady pace, casting crisp shadows on the pavement. With the camera fixed, each car remains centered in the frame as it rolls by and exits to the right. The tranquil urban backdrop—devoid of pedestrians or other traffic—keeps the focus squarely on their seamless motion.",
+    "width": 416,
+    "height": 240,
+    "frames": 81,
+    "fps": 12
+  },
+  "kitchen": {
+    "in": "The camera follows a bear’s point of view as it glides through a bright, modern kitchen, revealing glossy white upper cabinets and warm, wood‑toned countertops. Sunlight streams through the window above the counter, casting gentle shadows across the surfaces. The bear walks to the far end of the cabinet run, lifts the final upper-door with his right paw, retrieves a cup with his left paw, and gently closes it",
+    "out": "The camera follows a girl’s point of view as it glides through a bright, modern kitchen, revealing glossy white upper cabinets and warm, wood‑toned countertops. Sunlight streams through the window above the counter, casting gentle shadows across the surfaces. Dressed in a short green dress, she walks to the far end of the cabinet run, lifts the final upper-door with her right hand, retrieves a cup with her left, and gently closes it—her face never appearing on screen.",
+    "width": 416,
+    "height": 240,
+    "frames": 81,
+    "fps": 12
+  },
+  "city": {
+    "in": "The camera offers a drone’s bird’s‑eye view, slicing through wispy clouds as it soars above the city’s skyscrapers. Below lies a varied skyline of high‑rises and low‑rise buildings, while tiny vehicles traverse distant streets. Atop the tallest tower, a colossal King Kong—its massive form rivaling a third of the building’s height—clings to the spire as if surveying its domain. Bathed in bright, radiant sunlight, the scene feels like a clear morning or early afternoon.",
+    "out": "The camera offers a drone’s bird’s‑eye view, slicing through wispy clouds as it soars above the city’s skyscrapers. Below lies a varied skyline of high‑rises and low‑rise buildings, while tiny vehicles traverse distant streets. Bathed in bright, radiant sunlight, the scene feels like a clear morning or early afternoon.",
+    "width": 416,
+    "height": 240,
+    "frames": 81,
+    "fps": 12
+  },
+  "teapot": {
+    "in": "A stainless steel teapot filled with black tea slowly pours tea into a cup",
+    "out": "A transparent glass teapot filled with black tea slowly pours tea into a cup, causing bubbles to rise in the cup. As the cup nears fullness, the teapot pivots toward another empty cup and prepares to pour there.",
+    "width": 240,
+    "height": 416,
+    "frames": 85,
+    "fps": 12
+  }
+}

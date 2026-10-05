@@ -1,0 +1,5 @@
+include README.md LICENSE NOTICE CITATION.cff requirements*.txt
+recursive-include diffsynth/tokenizer_configs *
+recursive-include configs *.json *.csv
+recursive-include docs *.md
+global-exclude .DS_Store *.py[cod]

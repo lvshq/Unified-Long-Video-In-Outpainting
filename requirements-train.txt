@@ -1,0 +1,4 @@
+-r requirements.txt
+lightning>=2.2,<3
+peft>=0.14,<0.15
+pandas>=2,<3

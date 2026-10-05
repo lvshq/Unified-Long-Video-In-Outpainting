@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use this research code, please cite the paper below."
+type: software
+title: "Unified Long Video Inpainting and Outpainting"
+version: 0.1.0
+license: Apache-2.0
+repository-code: "https://github.com/lvshq/Unified-Long-Video-In-Outpainting"
+authors:
+  - family-names: Lyu
+    given-names: Shuangquan
+  - family-names: Mao
+    given-names: Jian
+  - family-names: Ma
+    given-names: Yue
+preferred-citation:
+  type: article
+  title: "Unified Long Video Inpainting and Outpainting via Overlapping High-Order Co-Denoising"
+  authors:
+    - family-names: Lyu
+      given-names: Shuangquan
+    - family-names: Mao
+      given-names: Jian
+    - family-names: Ma
+      given-names: Yue
+  year: 2025
+  journal: "arXiv preprint arXiv:2511.03272"
+  doi: "10.48550/arXiv.2511.03272"
+  url: "https://arxiv.org/abs/2511.03272"

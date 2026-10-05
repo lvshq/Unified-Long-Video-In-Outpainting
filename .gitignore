@@ -1,0 +1,34 @@
+# Local environments, credentials, and editor files
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+.DS_Store
+.idea/
+.vscode/
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+
+# Downloaded assets and generated experiment artifacts
+/data/*
+!/data/README.md
+/models/**
+!/models/**/
+!/models/**/*.txt
+/outputs/
+**/lightning_logs/
+**/swanlog/
+**/wandb/
+*.ckpt
+*.pth
+*.pt
+*.safetensors
+*.log
+.release/

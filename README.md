@@ -1,12 +1,19 @@
 # Unified Long Video Inpainting and Outpainting
 
+[![WCCI / IJCNN 2026](https://img.shields.io/badge/WCCI%20%2F%20IJCNN-2026-00629B.svg)](#citation)
 [![Paper](https://img.shields.io/badge/arXiv-2511.03272-b31b1b.svg)](https://arxiv.org/abs/2511.03272)
 [![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](LICENSE)
 [![Source checks](https://github.com/lvshq/Unified-Long-Video-In-Outpainting/actions/workflows/checks.yml/badge.svg)](https://github.com/lvshq/Unified-Long-Video-In-Outpainting/actions/workflows/checks.yml)
 
 Research code for **[Unified Long Video Inpainting and Outpainting via Overlapping High-Order Co-Denoising](https://arxiv.org/abs/2511.03272)**, by **Shuangquan Lyu, Jian Mao, and Yue Ma**.
 
+**Accepted and published at WCCI/IJCNN 2026** (International Joint Conference on Neural Networks, part of the IEEE World Congress on Computational Intelligence).
+
 Edit regions inside a video or extend its spatial canvas using a Wan 2.1 text-to-video backbone, mask-aware LoRA fine-tuning, and overlapping temporal denoising. This repository includes the modified DiffSynth-Studio implementation, training code, inference commands, and evaluation utilities.
+
+![Showcase of long-video outpainting of a lighthouse and mask-guided inpainting across multiple frames](docs/assets/teaser.png)
+
+*Figure 1 from the paper: spatial outpainting (top) and mask-guided inpainting (bottom) across video frames.*
 
 > **Release status:** Source code is available. Trained LoRA checkpoints and the complete InpaintBench dataset are **not included**, and no public download links are currently provided. Inference requires a trained adapter; train one using the instructions below. This release has CPU regression coverage, but has not been validated end to end with the 14B model on a CUDA GPU. See [implementation notes](docs/IMPLEMENTATION.md) for differences between the supplied research code and the paper.
 
@@ -18,17 +25,17 @@ Edit regions inside a video or extend its spatial canvas using a Wan 2.1 text-to
 - **Long-video inference:** combine overlapping latent windows with Hamming-weighted blending.
 - **Evaluation:** background SSIM/LPIPS, edited-region CLIP similarity, and consecutive-frame tLPIPS.
 
-```mermaid
-flowchart LR
-    A[Input video + edit mask] --> B[Wan VAE encoder]
-    B --> C[Masked or padded latents]
-    P[Text prompt] --> D[Wan DiT + trained LoRA]
-    C --> D
-    D --> E[Overlapping temporal windows]
-    E --> F[Second-order updates + Hamming blending]
-    F --> G[Wan VAE decoder]
-    G --> H[Edited video]
-```
+![Framework showing masked-video LoRA training and overlapping temporal co-denoising](docs/assets/framework.png)
+
+*Figure 2 from the paper: mixed spatial masks and LoRA fine-tuning (left), followed by overlapping temporal co-denoising with Hamming-weighted blending (right).*
+
+## Representative results
+
+![Qualitative comparison of long-video inpainting and outpainting with Wan, Wan2.1-Fun, VACE, and our method](docs/assets/qualitative-results.png)
+
+*Figure 3 from the paper: inpainting comparisons (top) and outpainting comparisons (bottom) on the surfing and indoor husky sequences. Each row shows selected frames from a video.*
+
+Click a figure to view it at full resolution. These are figures from the paper; the code-release validation scope is described in [implementation notes](docs/IMPLEMENTATION.md).
 
 ## Installation
 
@@ -225,6 +232,8 @@ bash -n examples/wanvideo/train.sh
 GitHub Actions runs CPU regression and source checks without downloading Wan checkpoints.
 
 ## Citation
+
+The paper was accepted and published at **WCCI/IJCNN 2026**. The following BibTeX entry cites the [arXiv version](https://arxiv.org/abs/2511.03272).
 
 ```bibtex
 @article{lyu2025unified,
